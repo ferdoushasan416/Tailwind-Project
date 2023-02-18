@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atena</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="overflow-x-hidden">
+    <header class="absolute left-0 top-0 w-full z-20">
+          <nav class="flex items-center justify-between px-5 py-5">
+                <a href="index.html"><img src="images/logo.png"></a>
+                <ul class="text-center hidden lg:flex items-center">
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Home
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                           <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                       </svg>    
+                   </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                         text-sm duration-200 font-semibold leading-4">Academic 
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>    
+                    </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                          text-sm duration-200 font-semibold leading-4">About 
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                         </svg>    
+                    </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Pages 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                         </svg>
+                    </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Tour 
+                    </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Login 
+                    </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Buy template 
+                    </a></li>
+                    <li class="inline-block px-2"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                            <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+                         </svg>
+                    </a></li>
+                </ul>
+                 <!-- mobile screen -->
+                   <div id="hamburger" class="lg:hidden cursor-pointer">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-white">
+                        <path fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                      </svg>                      
+                  </div>
+          </nav>
+    </header>
+    <main>
+       <div class="bg-[url('images/slide_1.jpg')] bg-center bg-cover h-[32rem] md:h-[45rem] flex items-center justify-center">
+            <div class="container">
+                <div class="text-white text-center m-auto">
+                    <h1 class="text-2xl md:text-6xl font-semibold leading-normal tracking-wide">Well equiped <span class="font-normal">classrooms</span></h1>
+                    <p class="uppercase text-sm md:text-lg mt-2">COLLEGE / UNIVERSITY / CAMPUS</p>
+                </div>
+                <div class="max-auto text-center mt-10">
+                    <a href="#" class="bg-btn-color text-white px-12 py-2 inline-block
+                    hover:bg-white hover:text-btn-color ease-in duration-200">Take a tour</a>
+                    <a href="#" class="bg-none border border-solid-white-color rounded-md text-white px-12 py-2
+                     inline-block ease-in duration-200 hover:bg-white outline-none hover:text-btn-color mt-4">About Us</a>
+                </div>
+            </div>
+       </div>
+       <!-- blog-section -->
+       <div class="bg-gray py-20 pb-8 w-full pt-10">
+            <div class="container">
+                <div class="relative grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-4 -mb-20">
+                    <div class="relative rounded-sm overflow-hidden group cursor-pointer mb-4">
+                        <img src="images/home_feat_1_1.jpg" class="w-[350px] scale-[1.2] group-hover:scale-100 transition duration-300">
+                        <a href="#" class="bg-[url('images/')] bg-cover absolute bottom-0 w-full px-3 flex items-center justify-between
+                           text-sm md:text-xl text-white font-medium uppercase"><p>Plan a visit</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                  class="text-white opacity-0 group-hover:opacity-100 transition
+                                  inline-block text-center text-sm w-7 h-7">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                             </svg>                              
+                         </a>
+                   </div>
+                  <div class="relative rounded-sm overflow-hidden group cursor-pointer mb-4">
+                    <img src="images/home_feat_1_2.jpg" class="w-[350px] scale-[1.2] group-hover:scale-100 transition duration-300">
+                    <a href="#" class="bg-[url('images/')] bg-cover absolute bottom-0 w-full px-3 flex items-center justify-between
+                    text-sm md:text-xl text-white font-medium uppercase"><p>Study Programs</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                             class="text-white opacity-0 group-hover:opacity-100 transition
+                             inline-block text-center text-sm w-7 h-7">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg> 
+                     </a>
+                 </div>
+                <div class="relative rounded-sm overflow-hidden group cursor-pointer mb-4">
+                    <img src="images/home_feat_1_3.jpg" class="w-[350px] scale-[1.2] group-hover:scale-100 transition duration-300">
+                     <a href="#" class="bg-[url('images/')] bg-black-500 bg-cover absolute bottom-0 w-full px-3 flex items-center justify-between
+                     text-sm md:text-xl text-white font-medium uppercase"><p>Admissions</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                              class="text-white opacity-0 group-hover:opacity-100 transition
+                              inline-block text-center text-sm w-7 h-7">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg> 
+                      </a>
+                  </div>
+                </div>
+            </div> 
+       </div>
+       <!-- Features Section -->
+       <div id="features">
+           <div class="container py-20 md:py-28 pb-10">
+                <div class="text-center mb-10 md:mb-20">
+                    <h3 class="text-xl md:text-4xl mb-2">Atena core feautures</h3>
+                    <p class="text-sm md:text-base tracking-wider uppercase text-p-color">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+                </div>
+                <div class="md:grid grid-cols-2 md:grid-cols-2 place-items-center">
+                     <div class="mb-10 flex gap-5">
+                            <div>
+                                <img src="images/icon-1.png" class="w-full">
+                           </div>
+                           <div class="max-w-md">
+                                <h4 class="text-lg md:text-xl mb-2">Quality Certifications</h4>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, vix erat audiam ei.<br/>
+                                   Cum doctus civibus efficiantur in. Nec id tempor imperdiet
+                                   mdeterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                           </div>
+                     </div>
+                     <div class="mb-10 flex gap-5">
+                        <div>
+                            <img src="images/icon-1.png" class="w-full">
+                       </div>
+                       <div class="max-w-md">
+                            <h4 class="text-lg md:text-xl mb-2">Quality Certifications</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, vix erat audiam ei.
+                               Cum doctus civibus efficiantur in. Nec id tempor imperdiet
+                               mdeterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                       </div>
+                 </div>
+                 <div class="mb-10 flex gap-5">
+                        <div>
+                            <img src="images/icon-1.png" class="w-full">
+                        </div>
+                      <div class="max-w-md">
+                            <h4 class="text-lg md:text-xl mb-2">Quality Certifications</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, vix erat audiam ei.
+                            Cum doctus civibus efficiantur in. Nec id tempor imperdiet
+                            mdeterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                      </div>
+                  </div>
+                  <div class="mb-10 flex gap-5">
+                    <div>
+                        <img src="images/icon-1.png" class="w-full">
+                   </div>
+                   <div class="max-w-md">
+                        <h4 class="text-lg md:text-xl mb-2">Quality Certifications</h4>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, vix erat audiam ei.
+                           Cum doctus civibus efficiantur in. Nec id tempor imperdiet
+                           mdeterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                   </div>
+             </div>
+             <div class="mb-10 flex gap-5">
+                <div>
+                    <img src="images/icon-1.png" class="w-full">
+               </div>
+               <div class="max-w-md">
+                    <h4 class="text-lg md:text-xl mb-2">Quality Certifications</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, vix erat audiam ei.
+                       Cum doctus civibus efficiantur in. Nec id tempor imperdiet
+                       mdeterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+               </div>
+         </div>
+         <div class="mb-10 flex gap-5">
+                <div>
+                    <img src="images/icon-1.png" class="w-full">
+                </div>
+              <div class="max-w-md">
+                    <h4 class="text-lg md:text-xl mb-2">Quality Certifications</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, vix erat audiam ei.
+                    Cum doctus civibus efficiantur in. Nec id tempor imperdiet
+                    mdeterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+              </div>
+          </div>
+                </div>
+           </div>
+       </div>
+       <!-- Testimonial Section -->
+       <div id="testimonial" class="bg-[url('images/testimonials.jpg')] bg-center bg-cover h-[22rem] md:h-[32rem] flex items-center justify-center">
+           <div>
+               <div class="container text-center">
+                  <p class="text-base md:text-[26px] text-white font-semibold leading-7 italic">Lorem ipsum dolor sit amet
+                     consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan.
+                     Sed ultricies commodo tortor, eu pretium mauris. </p>
+                  <div class="flex items-center justify-center mt-10">
+                      <img src="images/testimonial_1.jpg" class="w-[50px] h-[50px] rounded-full mr-4">
+                      <span class="text-white text-lg">Faisal</span>
+                  </div>
+               </div>
+           </div>
+       </div>
+       <!-- Our Gallery -->
+       <div id="gallery" class="mt-10 md:mt-20 pb-20">
+            <div class="text-center mb-10 md:mb-20">
+                <h3 class="text-xl md:text-4xl mb-2">Our Gallery</h3>
+                <p class="text-sm md:text-base tracking-wider uppercase text-p-color">tudent gallery of the year past graduated passouts</p>
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-2">
+                <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery1.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                        opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                        before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                        hover:text-white transition">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                       hover:text-white transition">
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                      </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                  </div>
+                <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery2.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                       hover:text-white transition">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                    hover:text-white transition">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                      </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                   </div>
+                 <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery3.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                         hover:text-white transition">
+                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                         </svg>
+                                     </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                       hover:text-white transition">
+                                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                           <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                      </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                   </div>
+                 <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery4.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                       hover:text-white transition">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                        hover:text-white transition">
+                                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                           <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                      </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                   </div>
+                 <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery5.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                        hover:text-white transition">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                     </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                         hover:text-white transition">
+                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                        </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                   </div>
+                 <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery6.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                         hover:text-white transition">
+                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                         </svg>
+                                    </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                       hover:text-white transition">
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                      </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                   </div>
+                 <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery7.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                         hover:text-white transition">
+                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                         </svg>
+                                    </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                        hover:text-white transition">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                         </svg>                                 
+                                     </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                  </div>
+                 <div class="relative overflow-hidden group">
+                    <img src="images/home-gallery/home-gallery1.jpg" class="w-full scale-[1.1] group-hover:scale-100 transition duration-300">
+                    <div class="absolute left-0 top-0 w-full h-full
+                         opacity-0 group-hover:opacity-100 before:w-full before:absolute before:left-0 before:top-0 before:h-full before:bg-orange
+                         before:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                        <div class="text-center z-20">
+                            <div class="flex items-center justify-center gap-2">
+                                    <a href="#" class="bg-white text-color-orange font-semibold w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                         hover:text-white transition">
+                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                         </svg>
+                                     </a> 
+                                    <a href="#" class="bg-white text-color-orange w-12 h-12 text-center flex items-center justify-center rounded-full hover:bg-black 
+                                    hover:text-white transition">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                                      </svg>                                 
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <h4 class="text-white text-xl uppercase font-semibold">Lorem Ipsum Proin</h4>
+                                    <span class="text-white text-lg">Convocation</span>
+                                </div> 
+                            </div>
+                        </div>
+                   </div>
+             </div>
+            <div class="text-center mt-20">
+                <a href="#" class="text-btn-2 text-lg font-bold border border-btn-2 uppercase py-2 px-10 hover:bg-black hover:text-white
+                hover:border-none transition duration-200">load more</a>
+            </div>
+       </div>
+       <!--==Counter Section--->
+       <div id="counter" class="bg-black py-14 pb-8 relative
+          bg-[url('images/counter-bg.png')] bg-cover bg-center">
+           <div class="container grid lg:grid-cols-4 md:grid-cols-2 place-items-center text-center">
+               <div class="text-white md:border-r-[1px] border-slate-500 px-20 mb-8">
+                  <div class="flex items-center justify-center flex-col">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-14 h-14">
+                        <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z" clip-rule="evenodd" />
+                        <path d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z" />
+                      </svg>
+                      </span>
+                      <h3 class="text-3xl md:text-4xl font-normal mt-3 mb-1">94,532</h3>
+                      <h5 class="text-sm md:text-base uppercase">FOREIGN FOLLOWERS</h5>
+                  </div>
+               </div>
+               <div class="text-white md:border-r-[1px] border-slate-500 px-20 mb-8">
+                <div class="flex items-center justify-center flex-col">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                       </svg>                  
+                    </span>
+                    <h3 class="text-3xl md:text-4xl font-normal mt-3 mb-1">94,532</h3>
+                    <h5 class="text-sm md:text-base uppercase">FOREIGN FOLLOWERS</h5>
+                </div>
+             </div>
+             <div class="text-white md:border-r-[1px] border-slate-500 px-20 mb-8">
+                <div class="flex items-center justify-center flex-col">
+                   <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                       </svg>                  
+                    </span>
+                    <h3 class="text-3xl md:text-4xl font-normal mt-3 mb-1">94,532</h3>
+                    <h5 class="text-sm md:text-base uppercase">FOREIGN FOLLOWERS</h5>
+                </div>
+             </div>
+             <div class="text-white">
+                <div class="flex items-center justify-center flex-col">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-14 h-14">
+                        <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                       </svg>            
+                    </span>
+                    <h3 class="text-4xl font-normal mt-3 mb-1">94,532</h3>
+                    <h5 class="text-sm md:text-base uppercase">FOREIGN FOLLOWERS</h5>
+                </div>
+             </div>
+           </div>
+       </div>
+       <!-- Discover Video -->
+       <div id="discover" class="bg-[url('images/video.jpg')] bg-cover bg-center h-[30rem] flex items-center justify-center text-center">
+           <div class="container">
+                <div class="text-white flex items-center justify-center flex-col">
+                    <h2 class="text-3xl md:text-5xl font-semibold mb-3">Discover the Campus</h2>
+                    <p class="text-lg md:text-2xl mb-4">Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. </p>
+                    <span><a href="#" class="opacity-50 hover:opacity-100 transition duration-200"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                     </svg></a></span>
+                </div>
+           </div>
+       </div>
+       <!-- Subscribe section -->
+       <div id="subscribe" class="bg-gray py-20">
+           <div class="container">
+                <div class="text-center">
+                    <h3 class="text-2xl md:text-3xl font-normal">Subscribe to our Newsletter for latest news.</h3>
+                    <div class="mt-6">
+                        <input type="email" placeholder="Your Email" class="max-w-[380px] md:w-[380px] h-12 border-2 border-[#ededed] pl-5 
+                        pr-3 rounded-sm focus:outline-none mb-5">
+                        <button class="bg-btn-color text-white px-8 py-3 inline-block rounded-md
+                        hover:bg-black hover:text-white hover:border-[#ededed] ease-in duration-200 ml-1">Subscribe</button>
+                    </div>
+                </div>
+           </div>
+       </div>   
+    </main>
+    <!-- Footer Section -->
+    <div id="footer" class="bg-black-dark">
+        <div class="container py-10">
+            <div class="md:flex justify-center justify-around flex-wrap text-center md:text-left gap-0">
+                <div class="mb-7">
+                    <img src="images/logo.png" class="mx-auto">
+                </div>
+                <div>
+                      <h4 class="text-white text-base uppercase font-semibold mb-5">About</h4>
+                    <div class="mb-4">
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">About us</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Blog</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Login</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Register</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Terms and condition</a></li>
+                    </div>
+                </div>
+                <div>
+                <h4 class="text-white text-base uppercase font-semibold mb-5">Academic</h4>
+                    <div class="mb-4">
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Plans of study</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Courses</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Admissions</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Staff</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Students</a></li>
+                    </div>
+                </div>
+                <div>
+                <h4 class="text-white text-base uppercase font-semibold mb-5">Contact us</h4>
+                    <div>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Contacts</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Plan a visit</a></li>
+                        <li class="list-none mb-1"><span class="text-white">Info line-<a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">+0332 84322456</a></span></li>
+                        <li class="list-none mb-1"><span class="text-white">Email-<a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">info@atena.com</a></span></li>
+                    </div>
+                </div>
+             </div>
+           </div>  
+       </div>
+       <!-- Copyright Footer -->
+       <div id="copyright" class="bg-black">
+           <div class="container py-5 flex justify-around items-center justify-center flex-wrap text-center md:text-left">
+                <div>
+                    <a href="#"><img src="images/ft_logo.png"></a>
+                </div>
+                <div class="text-white text-base capitalize mt-2">
+                    <span class="">© All Rights reserved. Powered By<a href="#" class="inline-block text-sm font-semibold ml-1">KODEFOREST</a></span>
+                </div>
+                <ul class="flex items-center gap-2 mt-3">
+                      <li><a href="#"><img src="images/card/visacard.png"></a></li>
+                      <li><a href="#"><img src="images/card/mastercard.png"></a></li>
+                      <li><a href="#"><img src="images/card/americancard.png"></a></li>
+                      <li><a href="#"><img src="images/card/card.png"></a></li>
+                      <li><a href="#"><img src="images/card/descoverycard.png"></a></li>
+                 </ul>
+           </div>
+       </div>
+</body>
+</html>

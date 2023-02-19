@@ -61,15 +61,38 @@
           </nav>
     </header>
     <main>
-       <div class="bg-[url('images/slide_1.jpg')] bg-center bg-cover h-[32rem] md:h-[45rem] flex items-center justify-center">
-            <div class="container">
+       <div class="bg-[url('images/hero-form.jpg')] bg-center bg-cover  md:h-[600px] flex items-center justify-center overflow-hidden">
+            <div class="container pt-16 py-10">
                 <div class="text-white text-center m-auto">
-                    <h1 class="text-2xl md:text-6xl font-semibold leading-normal tracking-wide">Well equiped <span class="font-normal">classrooms</span></h1>
-                    <p class="uppercase text-sm md:text-lg mt-2">COLLEGE / UNIVERSITY / CAMPUS</p>
+                    <h1 class="text-2xl md:text-5xl lg:text-6xl font-normal leading-normal tracking-wide">Atena <b>Excellence</b> in teaching</h1>
+                    <p class="capitalize text-sm md:text-lg mt-2">Ex saepe accusata duo, vel ne summo option delenit.</p>
                 </div>
                 <div class="max-auto text-center mt-10">
-                    <form action="Post">
-                        <input type="text" placeholder="First name">
+                    <form action="Post" class="flex items-center justify-center flex-col">
+                        <div class="w-full h-[48px] md:max-w-[70%] lg:max-w-[80%] xl:max-w-[50%] mb-8">
+                            <input type="text" class="relative w-full py-2.5 px-[20px] block outline-none border-2 border-text-white bg-transparent
+                            text-lg text-white transition"placeholder="Name and Last name">
+                        </div>
+                        <div class="w-full h-[48px] md:max-w-[70%] lg:max-w-[80%] xl:max-w-[50%] mb-8 grid grid-cols-2 gap-6">
+                            <input type="email" class="relative w-full py-2.5 px-[20px] block outline-none border-2 border-text-white bg-transparent
+                            text-lg text-white transition" placeholder="Email">
+                            <input type="text" class="relative w-full py-2.5 px-[20px] block outline-none border-2 border-text-white bg-transparent
+                            text-lg text-white transition" placeholder="Phone number">
+                        </div>
+                        <div class="w-full h-[48px] md:max-w-[70%] lg:max-w-[80%] xl:max-w-[50%]">
+                             <select name="hero-form" id="" class="relative w-full py-2.5 px-[20px] block outline-none border-2 border-text-white bg-transparent
+                             text-lg text-white transition appearance-none bg-[url('images/down_arrow_select_2.png')] bg-no-repeat bg-right cursor-pointer">
+                                <option value="01">Preferred course</option>
+                                <option value="02">Biology</option>
+                                <option value="03">Litterature</option>
+                                <option value="04">Graduate courses</option>
+                                <option value="05">Undergraduate courses</option>
+                             </select>
+                        </div>
+                        <div>
+                            <button class="bg-btn-color text-white px-6 py-2 inline-block rounded-sm mt-8
+                             hover:bg-black hover:text-white hover:border-[#ededed] ease-in duration-200">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>

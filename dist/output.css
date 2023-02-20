@@ -643,6 +643,14 @@ video {
   top: 0px;
 }
 
+.top-full{
+  top: 100%;
+}
+
+.top-\[110\%\]{
+  top: 110%;
+}
+
 .isolate{
   isolation: isolate;
 }
@@ -952,6 +960,10 @@ video {
   width: 1.75rem;
 }
 
+.w-72{
+  width: 18rem;
+}
+
 .w-9{
   width: 2.25rem;
 }
@@ -970,6 +982,14 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-60{
+  width: 15rem;
+}
+
+.w-48{
+  width: 12rem;
 }
 
 .max-w-\[380px\]{
@@ -1583,6 +1603,11 @@ video {
   border-style: none;
 }
 
+.divide-gray > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgb(243 245 248 / var(--tw-divide-opacity));
+}
+
 .place-self-auto{
   place-self: auto;
 }
@@ -1892,6 +1917,10 @@ video {
   border-top-width: 1px;
 }
 
+.border-b-2{
+  border-bottom-width: 2px;
+}
+
 .border-solid{
   border-style: solid;
 }
@@ -1944,6 +1973,16 @@ video {
 .border-slate-500{
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+.border-b-\[red\]{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 0 0 / var(--tw-border-opacity));
+}
+
+.border-b-\[\#ddd\]{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(221 221 221 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
@@ -2205,6 +2244,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -2231,6 +2275,18 @@ video {
 
 .pt-16{
   padding-top: 4rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
+}
+
+.pt-0{
+  padding-top: 0px;
 }
 
 .text-left{
@@ -2905,6 +2961,18 @@ video {
   --tw-bg-opacity: 0.6;
 }
 
+.hover\:visible:hover{
+  visibility: visible;
+}
+
+.hover\:top-full:hover{
+  top: 100%;
+}
+
+.hover\:block:hover{
+  display: block;
+}
+
 .hover\:-translate-y-2:hover{
   --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2968,6 +3036,10 @@ video {
 
 .hover\:focus\:text-center:focus:hover{
   text-align: center;
+}
+
+.group:hover .group-hover\:visible{
+  visibility: visible;
 }
 
 .group:hover .group-hover\:scale-100{

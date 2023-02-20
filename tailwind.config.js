@@ -5,14 +5,22 @@ module.exports = {
     extend: {
       colors: {
           "primary": "#01051e",
-          "orange": "#E39929",
-          "gray": "#F3F5F8",
-          "black": "#2E2F33",
-          "black-dark": "#283842",
           "secondary": "#ff7d3d",
-          "btn-color": "#00aeef",
-          "btn-2": "#e79800",
-          "p-color": "#777",
+          "orange": {
+            DEFAULT: "#E39929"
+          },
+          "gray": {
+            DEFAULT: "#F3F5F8"
+          },
+          "black": {
+            DEFAULT: "#2E2F33",
+            "dark": "#283842"
+          },
+          "btn": {
+            "primary": "#00aeef",
+            "secondary": "#e79800"
+          },
+          "lead": "#777",
       }
     },
    container: {

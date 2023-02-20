@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply border border-solid border-btn-primary bg-btn-primary text-white px-12 py-2 inline-block hover:bg-white hover:border-white hover:text-btn-primary ease-in duration-200 rounded-md;
+    }
+    .btn-secondary{
+        @apply border border-solid border-white rounded-md text-white px-12 py-2 inline-block ease-in duration-200 hover:bg-white hover:border-white outline-none hover:text-btn-primary;
+    }
+}

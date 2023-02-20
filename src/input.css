@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .dropdown-menu {
+      @apply absolute divide-y divide-gray border-t-2 border-btn-color left-0 top-full mt-6 bg-white 
+      w-44 transition duration-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible
+      before:absolute before:bottom-full before:left-7 before:border-solid before:border-b-btn-color
+      before:border-8 before:border-8 before:border-transparent;
+    }
+  }

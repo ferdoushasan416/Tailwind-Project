@@ -421,54 +421,6 @@ video {
   display: none;
 }
 
-.dropdown-menu{
-  visibility: hidden;
-  position: absolute;
-  left: 0px;
-  top: 100%;
-  margin-top: 1.5rem;
-  width: 11rem;
-}
-
-.dropdown-menu > :not([hidden]) ~ :not([hidden]){
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-  --tw-divide-opacity: 1;
-  border-color: rgb(243 245 248 / var(--tw-divide-opacity));
-}
-
-.dropdown-menu{
-  border-top-width: 2px;
-  --tw-border-opacity: 1;
-  border-color: rgb(0 174 239 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  opacity: 0;
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
-}
-
-.dropdown-menu::before{
-  position: absolute;
-  bottom: 100%;
-  left: 1.75rem;
-  border-width: 8px;
-  border-style: solid;
-  border-color: transparent;
-  content: var(--tw-content);
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(0 174 239 / var(--tw-border-opacity));
-}
-
-.group:hover .dropdown-menu{
-  visibility: visible;
-  opacity: 1;
-}
-
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -689,6 +641,18 @@ video {
 
 .top-0{
   top: 0px;
+}
+
+.top-full{
+  top: 100%;
+}
+
+.top-20{
+  top: 5rem;
+}
+
+.top-5{
+  top: 1.25rem;
 }
 
 .isolate{
@@ -1007,6 +971,10 @@ video {
   width: 1rem;
 }
 
+.w-48{
+  width: 12rem;
+}
+
 .w-5{
   width: 1.25rem;
 }
@@ -1033,6 +1001,18 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-40{
+  width: 10rem;
+}
+
+.w-44{
+  width: 11rem;
+}
+
+.w-52{
+  width: 13rem;
 }
 
 .max-w-\[380px\]{
@@ -1644,6 +1624,11 @@ video {
 
 .divide-none > :not([hidden]) ~ :not([hidden]){
   border-style: none;
+}
+
+.divide-gray > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgb(243 245 248 / var(--tw-divide-opacity));
 }
 
 .place-self-auto{
@@ -2317,6 +2302,10 @@ video {
 
 .pr-3{
   padding-right: 0.75rem;
+}
+
+.pt-0{
+  padding-top: 0px;
 }
 
 .pt-10{
@@ -3035,11 +3024,6 @@ video {
   background-color: rgb(46 47 51 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 245 248 / var(--tw-bg-opacity));
-}
-
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -3047,11 +3031,6 @@ video {
 .hover\:text-black:hover{
   --tw-text-opacity: 1;
   color: rgb(46 47 51 / var(--tw-text-opacity));
-}
-
-.hover\:text-btn-color:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 174 239 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover{
@@ -3084,6 +3063,10 @@ video {
 
 .hover\:focus\:text-center:focus:hover{
   text-align: center;
+}
+
+.group:hover .group-hover\:visible{
+  visibility: visible;
 }
 
 .group:hover .group-hover\:scale-100{

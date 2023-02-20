@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html,
+    body,
+    header{
+        min-width: 320px;
+    }
+}
+
 @layer components {
     .hero-input {
         @apply relative w-full py-2 px-3 xl:py-2.5 xl:px-5 block outline-none border-2 border-white bg-transparent focus:bg-white-200 text-sm xl:text-lg text-white transition-all rounded placeholder:text-gray-300;
@@ -20,5 +28,9 @@
 
     .grid-block:nth-child(3n+3){
         @apply sm:col-span-2 lg:col-span-1
+    }
+
+    .dropdown-wrapper{
+        @apply lg-max:absolute lg-max:py-1 lg-max:left-0 lg-max:top-10 lg-max:bg-white lg-max:border-t-2 lg-max:border-btn-primary lg:inline-block lg-max:before:border-transparent lg-max:before:border-b-btn-primary lg-max:before:border-8 lg-max:before:-ml-2 before:w-0 before:h-0 before:absolute before:bottom-full lg-max:before:left-2 lg-max:text-gray-500 lg-max:text-xs;
     }
 }

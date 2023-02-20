@@ -3,6 +3,11 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        'sm-max' : {'max': '767px'},
+        'md-max' : {'max': '991px'},
+        'lg-max' : {'max': '1024px'},
+      },
       fontFamily: {
         'body': ['"Open Sans", sans-serif'],
         'roboto': ['"Roboto", sans-serif'],

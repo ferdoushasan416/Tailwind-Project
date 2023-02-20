@@ -9,6 +9,9 @@
     header{
         min-width: 320px;
     }
+    [x-cloak]{
+        display: none;
+    }
 }
 
 @layer components {
@@ -31,6 +34,6 @@
     }
 
     .dropdown-wrapper{
-        @apply lg-max:absolute lg-max:py-1 lg-max:left-0 lg-max:top-10 lg-max:bg-white lg-max:border-t-2 lg-max:border-btn-primary lg:inline-block lg-max:before:border-transparent lg-max:before:border-b-btn-primary lg-max:before:border-8 lg-max:before:-ml-2 before:w-0 before:h-0 before:absolute before:bottom-full lg-max:before:left-2 lg-max:text-gray-500 lg-max:text-xs;
+        @apply absolute py-1 left-0 top-11 bg-white border-t-2 border-btn-primary before:border-transparent before:border-b-btn-primary before:border-8 before:-ml-2 before:w-0 before:h-0 before:absolute before:bottom-full before:left-2 text-gray-500 text-xs;
     }
 }

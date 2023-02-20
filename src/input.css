@@ -4,10 +4,21 @@
 @tailwind utilities;
 
 @layer components {
+    .hero-input {
+        @apply relative w-full py-2 px-3 xl:py-2.5 xl:px-5 block outline-none border-2 border-white bg-transparent focus:bg-white-200 text-sm xl:text-lg text-white transition-all rounded placeholder:text-gray-300;
+    }
     .btn-primary {
-        @apply border border-solid border-btn-primary bg-btn-primary text-white px-12 py-2 inline-block hover:bg-white hover:border-white hover:text-btn-primary ease-in duration-200 rounded-md;
+        @apply border border-solid border-btn-primary bg-btn-primary text-white px-12 py-1.5 md:py-2 inline-block hover:bg-white hover:border-white hover:text-btn-primary ease-in duration-200 rounded-md font-semibold font-roboto uppercase;
     }
     .btn-secondary{
-        @apply border border-solid border-white rounded-md text-white px-12 py-2 inline-block ease-in duration-200 hover:bg-white hover:border-white outline-none hover:text-btn-primary;
+        @apply border border-solid border-white rounded-md text-white px-12 py-1.5 md:py-2 inline-block ease-in duration-200 hover:bg-white hover:border-white outline-none hover:text-btn-primary font-semibold font-roboto uppercase;
+    }
+
+    .grid-block{
+        @apply relative w-full rounded-sm overflow-hidden cursor-pointer;
+    }
+
+    .grid-block:nth-child(3n+3){
+        @apply sm:col-span-2 lg:col-span-1
     }
 }

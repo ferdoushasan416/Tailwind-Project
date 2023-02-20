@@ -3,6 +3,10 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'body': ['"Open Sans", sans-serif'],
+        'roboto': ['"Roboto", sans-serif'],
+      },
       colors: {
           "primary": "#01051e",
           "secondary": "#ff7d3d",
@@ -13,7 +17,8 @@ module.exports = {
             DEFAULT: "#F3F5F8"
           },
           "black": {
-            DEFAULT: "#2E2F33",
+            DEFAULT: "#000000",
+            200: "#2E2F33",
             "dark": "#283842"
           },
           "btn": {
@@ -21,6 +26,10 @@ module.exports = {
             "secondary": "#e79800"
           },
           "lead": "#777",
+          "white": {
+            DEFAULT: "#FFFFFF",
+            200: "rgba(255, 255, 255, 0.2)"
+          }
       }
     },
    container: {

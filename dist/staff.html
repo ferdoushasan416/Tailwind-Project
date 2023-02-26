@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff member</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="overflow-x-hidden">
+    <header class="absolute left-0 top-0 w-full z-20">
+          <nav class="flex items-center justify-between px-5 py-5">
+                <a href="index.html"><img src="images/logo.png"></a>
+                <ul class="text-center hidden lg:flex items-center">
+                    <li class="inline-block px-2 relative transition group"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Home
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                           <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                       </svg>    
+                   </a>
+                  <ul class="dropdown-menu">
+                      <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Home Layer slider</a></li>
+                      <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Home Video</a></li>
+                      <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Home version 2</a></li>
+                      <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Home version 3</a></li>
+                      <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Home quick contact</a></li>
+                  </ul>
+                 </li>
+                    <li class="inline-block px-2 relative transition group"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                         text-sm duration-200 font-semibold leading-4">Academic 
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>    
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Diploma courses</a></li>
+                        <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Graduate courses</a></li>
+                        <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Master courses</a></li>
+                        <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Apply online</a></li>
+                        <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Staff</a></li>
+                    </ul>
+                  </li>
+                 <li class="inline-block px-2 relative transition group"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                          text-sm duration-200 font-semibold leading-4">About 
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                         </svg>    
+                     </a>
+                     <ul class="dropdown-menu">
+                         <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">About us</a></li>
+                         <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Plan a visit</a></li>
+                         <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Staff</a></li>
+                         <li class="text-left px-4 py-2 pt-2 transition-all hover:bg-gray"><a href="#" class="text-sm block hover:text-btn-color">Gallery</a></li>
+                     </ul>
+                  </li>
+                    <li class="inline-block px-2 relative transition"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Pages 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                         </svg>
+                    </a></li>
+                    <li class="inline-block px-2 relative transition"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Tour 
+                    </a></li>
+                    <li class="inline-block px-2 relative transition"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Login 
+                    </a></li>
+                    <li class="inline-block px-2 relative transition"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">Buy template 
+                    </a></li>
+                    <li class="inline-block px-2 relative transition"><a href="#" class="flex items-center text-white px-2 hover:text-white ease-in uppercase
+                        text-sm duration-200 font-semibold leading-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                            <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+                         </svg>
+                    </a></li>
+                </ul>
+                 <!-- mobile screen -->
+                   <div id="hamburger" class="lg:hidden cursor-pointer">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-white">
+                        <path fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                      </svg>                      
+                  </div>
+           </nav>
+    </header>
+    <main>
+       <div class="bg-[url('images/staff-banner.jpg')] bg-center bg-cover h-[300px] md:h-[500px] flex items-center justify-center overflow-hidden">
+            <div class="container pt-16 py-10">
+                <div class="text-white text-center m-auto">
+                    <h1 class="text-2xl md:text-5xl lg:text-6xl font-normal leading-normal tracking-wide md:mb-4">Atena <b>Agenda</b> calendar</h1>
+                    <p class="capitalize text-sm md:text-lg mt-2">Ex saepe accusata duo, vel ne summo option delenit.</p>
+                </div>
+            </div>
+       </div>
+       <!-- Sub-Category -->
+       <div class="py-2 bg-gray border border-b-[#ccc]">
+           <div class="container">
+                <ul>
+                    <li class="inline-block mr-1 mt-1 relative"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                      </svg>
+                      </li>
+                    <li class="inline-block"><a href="#" class="text-xs"><span></span> Home ></a></li>
+                    <li class="inline-block"><a href="#" class="text-xs">Category ></a></li>
+                    <li class="text-xs inline block">Page active</li>
+                </ul>
+           </div>
+       </div>
+       <!-- staff member -->
+       <section id="staff-member" class="bg-gray">
+           <div class="container py-20">
+                <div class="text-center mb-10 md:mb-10">
+                     <h3 class="text-xl md:text-4xl mb-3">ATENA Teachers ...</h3>
+                     <p class="text-sm md:text-base tracking-wider uppercase text-p-color">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+                </div>
+                <!-- staff-items -->
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+                    <!-- staff-1 -->
+                    <div class="text-center bg-white py-10 px-10 rounded-sm overflow-hidden translate-y-0 hover:-translate-y-2 transition-all duration-500">
+                        <span><img src="images/teacher_1_small.jpg" class="text-center mx-auto ring-4 ring-gray rounded-full"></span>
+                        <h5 class="text-lg mt-3 mb-2">Patricia Doe <small>Biologist</small></h5>
+                        <p class="text-sm">When an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap
+                         into electronic typesetting, remaining essentially unchanged.</p>
+                         <ul class="mt-4">
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                 <path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                 </svg></a></li>
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                  <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507
+                                   0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                  </svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg fill="none" viewBox="0 0 24 24" class="w-5 h-5 text-center mx-auto">
+                                  <path fill="#000" d="m19.76 10.77-.09-.35h-7.44v3.16h4.45a4.45 4.45 0 0 1-4.36 3.34 5.21 5.21 0 0 1-3.5-1.39A5 5 0 0 1 7.33 12a5.14 5.14 0 0 1 1.46-3.53 5 5 0 0 1 3.48-1.37 4.55 4.55
+                                  0 0 1 3 1.16L17.47 6a7.88 7.88 0 0 0-5.27-2 8.14 8.14 0 0 0-5.77 2.35 8.15 8.15 0 0 0-.09 11.21 8.37 8.37 0 0 0 6 2.44 7.45 7.45 0 0 0 5.41-2.27 8 8 0 0 0 2.08-5.54 9.88 9.88 0 0 0-.07-1.42Z"/></svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 1920 1920" class="w-4 h-4 text-center mx-auto">
+                                <path fill-rule="evenodd" d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"/></svg></a></li>
+                           </ul>
+                          <hr class="styled my-[25px] border border-t-[#e2e2e2] border-b-white">
+                          <a href="#" class="text-btn-color py-2 px-7 border-2 border-btn-color text-sm font-semibold rounded-sm hover:text-black hover:border-black transition">Profile</a>
+                    </div>
+                    <!-- staff-2 -->
+                    <div class="text-center bg-white py-10 px-10 rounded-sm overflow-hidden translate-y-0 hover:-translate-y-2 transition-all duration-500">
+                        <span><img src="images/teacher_2_small.jpg" class="text-center mx-auto ring-4 ring-gray rounded-full"></span>
+                        <h5 class="text-lg mt-3 mb-2">Megan Fox <small>Engineer</small></h5>
+                        <p class="text-sm">When an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap
+                         into electronic typesetting, remaining essentially unchanged.</p>
+                         <ul class="mt-4">
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                 <path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                 </svg></a></li>
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                  <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507
+                                   0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                  </svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg fill="none" viewBox="0 0 24 24" class="w-5 h-5 text-center mx-auto">
+                                  <path fill="#000" d="m19.76 10.77-.09-.35h-7.44v3.16h4.45a4.45 4.45 0 0 1-4.36 3.34 5.21 5.21 0 0 1-3.5-1.39A5 5 0 0 1 7.33 12a5.14 5.14 0 0 1 1.46-3.53 5 5 0 0 1 3.48-1.37 4.55 4.55
+                                  0 0 1 3 1.16L17.47 6a7.88 7.88 0 0 0-5.27-2 8.14 8.14 0 0 0-5.77 2.35 8.15 8.15 0 0 0-.09 11.21 8.37 8.37 0 0 0 6 2.44 7.45 7.45 0 0 0 5.41-2.27 8 8 0 0 0 2.08-5.54 9.88 9.88 0 0 0-.07-1.42Z"/></svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 1920 1920" class="w-4 h-4 text-center mx-auto">
+                                <path fill-rule="evenodd" d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"/></svg></a></li>
+                           </ul>
+                          <hr class="styled my-[25px] border border-t-[#e2e2e2] border-b-white">
+                          <a href="#" class="text-btn-color py-2 px-7 border-2 border-btn-color text-sm font-semibold rounded-sm hover:text-black hover:border-black transition">Profile</a>
+                    </div>
+                    <!-- staff-3 -->
+                    <div class="text-center bg-white py-10 px-10 rounded-sm overflow-hidden translate-y-0 hover:-translate-y-2 transition-all duration-500">
+                        <span><img src="images/teacher_3_small.jpg" class="text-center mx-auto ring-4 ring-gray rounded-full"></span>
+                        <h5 class="text-lg mt-3 mb-2">Silvia Doe <small>Biologist</small></h5>
+                        <p class="text-sm">When an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap
+                         into electronic typesetting, remaining essentially unchanged.</p>
+                         <ul class="mt-4">
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                 <path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                 </svg></a></li>
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                  <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507
+                                   0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                  </svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg fill="none" viewBox="0 0 24 24" class="w-5 h-5 text-center mx-auto">
+                                  <path fill="#000" d="m19.76 10.77-.09-.35h-7.44v3.16h4.45a4.45 4.45 0 0 1-4.36 3.34 5.21 5.21 0 0 1-3.5-1.39A5 5 0 0 1 7.33 12a5.14 5.14 0 0 1 1.46-3.53 5 5 0 0 1 3.48-1.37 4.55 4.55
+                                  0 0 1 3 1.16L17.47 6a7.88 7.88 0 0 0-5.27-2 8.14 8.14 0 0 0-5.77 2.35 8.15 8.15 0 0 0-.09 11.21 8.37 8.37 0 0 0 6 2.44 7.45 7.45 0 0 0 5.41-2.27 8 8 0 0 0 2.08-5.54 9.88 9.88 0 0 0-.07-1.42Z"/></svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 1920 1920" class="w-4 h-4 text-center mx-auto">
+                                <path fill-rule="evenodd" d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"/></svg></a></li>
+                          </ul>
+                          <hr class="styled my-[25px] border border-t-[#e2e2e2] border-b-white">
+                          <a href="#" class="text-btn-color py-2 px-7 border-2 border-btn-color text-sm font-semibold rounded-sm hover:text-black hover:border-black transition">Profile</a>
+                    </div>
+                    <!-- staff-4 -->
+                    <div class="text-center bg-white py-10 px-10 rounded-sm overflow-hidden translate-y-0 hover:-translate-y-2 transition-all duration-500">
+                        <span><img src="images/teacher_1_small.jpg" class="text-center mx-auto ring-4 ring-gray rounded-full"></span>
+                        <h5 class="text-lg mt-3 mb-2">Patricia Doe <small>Biologist</small></h5>
+                        <p class="text-sm">When an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap
+                         into electronic typesetting, remaining essentially unchanged.</p>
+                          <ul class="mt-4">
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                 <path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                 </svg></a></li>
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                  <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507
+                                   0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                  </svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg fill="none" viewBox="0 0 24 24" class="w-5 h-5 text-center mx-auto">
+                                  <path fill="#000" d="m19.76 10.77-.09-.35h-7.44v3.16h4.45a4.45 4.45 0 0 1-4.36 3.34 5.21 5.21 0 0 1-3.5-1.39A5 5 0 0 1 7.33 12a5.14 5.14 0 0 1 1.46-3.53 5 5 0 0 1 3.48-1.37 4.55 4.55
+                                  0 0 1 3 1.16L17.47 6a7.88 7.88 0 0 0-5.27-2 8.14 8.14 0 0 0-5.77 2.35 8.15 8.15 0 0 0-.09 11.21 8.37 8.37 0 0 0 6 2.44 7.45 7.45 0 0 0 5.41-2.27 8 8 0 0 0 2.08-5.54 9.88 9.88 0 0 0-.07-1.42Z"/></svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 1920 1920" class="w-4 h-4 text-center mx-auto">
+                                <path fill-rule="evenodd" d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"/></svg></a></li>
+                            </ul>
+                          <hr class="styled my-[25px] border border-t-[#e2e2e2] border-b-white">
+                          <a href="#" class="text-btn-color py-2 px-7 border-2 border-btn-color text-sm font-semibold rounded-sm hover:text-black hover:border-black transition">Profile</a>
+                    </div>
+                    <!-- staff-5 -->
+                    <div class="text-center bg-white py-10 px-10 rounded-sm overflow-hidden translate-y-0 hover:-translate-y-2 transition-all duration-500">
+                        <span><img src="images/teacher_2_small.jpg" class="text-center mx-auto ring-4 ring-gray rounded-full"></span>
+                        <h5 class="text-lg mt-3 mb-2">Megan Fox <small>Engineer</small></h5>
+                        <p class="text-sm">When an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap
+                         into electronic typesetting, remaining essentially unchanged.</p>
+                         <ul class="mt-4">
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                 <path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                 </svg></a></li>
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                  <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507
+                                   0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                  </svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg fill="none" viewBox="0 0 24 24" class="w-5 h-5 text-center mx-auto">
+                                  <path fill="#000" d="m19.76 10.77-.09-.35h-7.44v3.16h4.45a4.45 4.45 0 0 1-4.36 3.34 5.21 5.21 0 0 1-3.5-1.39A5 5 0 0 1 7.33 12a5.14 5.14 0 0 1 1.46-3.53 5 5 0 0 1 3.48-1.37 4.55 4.55
+                                  0 0 1 3 1.16L17.47 6a7.88 7.88 0 0 0-5.27-2 8.14 8.14 0 0 0-5.77 2.35 8.15 8.15 0 0 0-.09 11.21 8.37 8.37 0 0 0 6 2.44 7.45 7.45 0 0 0 5.41-2.27 8 8 0 0 0 2.08-5.54 9.88 9.88 0 0 0-.07-1.42Z"/></svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 1920 1920" class="w-4 h-4 text-center mx-auto">
+                                <path fill-rule="evenodd" d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"/></svg></a></li>
+                          </ul>
+                          <hr class="styled my-[25px] border border-t-[#e2e2e2] border-b-white">
+                          <a href="#" class="text-btn-color py-2 px-7 border-2 border-btn-color text-sm font-semibold rounded-sm hover:text-black hover:border-black transition">Profile</a>
+                    </div>
+                    <!-- staff-6 -->
+                    <div class="text-center bg-white py-10 px-10 rounded-sm overflow-hidden translate-y-0 hover:-translate-y-2 transition-all duration-500">
+                        <span><img src="images/teacher_3_small.jpg" class="text-center mx-auto ring-4 ring-gray rounded-full"></span>
+                        <h5 class="text-lg mt-3 mb-2">Silvia Doe <small>Biologist</small></h5>
+                        <p class="text-sm">When an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap
+                         into electronic typesetting, remaining essentially unchanged.</p>
+                         <ul class="mt-4">
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                 <path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                 </svg></a></li>
+                              <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 32 32" class="w-5 h-5 text-center mx-auto">
+                                  <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507
+                                   0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                  </svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg fill="none" viewBox="0 0 24 24" class="w-5 h-5 text-center mx-auto">
+                                  <path fill="#000" d="m19.76 10.77-.09-.35h-7.44v3.16h4.45a4.45 4.45 0 0 1-4.36 3.34 5.21 5.21 0 0 1-3.5-1.39A5 5 0 0 1 7.33 12a5.14 5.14 0 0 1 1.46-3.53 5 5 0 0 1 3.48-1.37 4.55 4.55
+                                  0 0 1 3 1.16L17.47 6a7.88 7.88 0 0 0-5.27-2 8.14 8.14 0 0 0-5.77 2.35 8.15 8.15 0 0 0-.09 11.21 8.37 8.37 0 0 0 6 2.44 7.45 7.45 0 0 0 5.41-2.27 8 8 0 0 0 2.08-5.54 9.88 9.88 0 0 0-.07-1.42Z"/></svg></a></li>
+                               <li class="inline-block w-10 h-10 rounded-full border-2 border-[#ededed] text-center"><a href="#" class="block transition pt-2 text-center"><svg viewBox="0 0 1920 1920" class="w-4 h-4 text-center mx-auto">
+                                <path fill-rule="evenodd" d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"/></svg></a></li>
+                          </ul>
+                          <hr class="styled my-[25px] border border-t-[#e2e2e2] border-b-white">
+                          <a href="#" class="text-btn-color py-2 px-7 border-2 border-btn-color text-sm font-semibold rounded-sm hover:text-black hover:border-black transition">Profile</a>
+                    </div>
+                    <!-- staff end -->
+                </div>
+           </div>
+       </section>
+       <!-- Subscribe section -->
+       <div id="subscribe" class="py-20">
+           <div class="container">
+                <div class="text-center">
+                    <h3 class="text-2xl md:text-3xl font-normal">Subscribe to our Newsletter for latest news.</h3>
+                    <div class="mt-6">
+                        <input type="email" placeholder="Your Email" class="max-w-[380px] md:w-[380px] h-12 border-2 border-[#ededed] pl-5 
+                        pr-3 rounded-sm focus:outline-none mb-5">
+                        <button class="bg-btn-color text-white px-8 py-3 inline-block rounded-md
+                        hover:bg-black hover:text-white hover:border-[#ededed] ease-in duration-200 ml-1">Subscribe</button>
+                    </div>
+                </div>
+           </div>
+       </div>   
+    </main>
+    <!-- Footer Section -->
+    <div id="footer" class="bg-black-dark">
+        <div class="container py-10">
+            <div class="md:flex justify-center justify-around flex-wrap text-center md:text-left gap-0">
+                <div class="mb-7">
+                    <img src="images/logo.png" class="mx-auto">
+                </div>
+                <div>
+                      <h4 class="text-white text-base uppercase font-semibold mb-5">About</h4>
+                    <div class="mb-4">
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">About us</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Blog</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Login</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Register</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Terms and condition</a></li>
+                    </div>
+                </div>
+                <div>
+                <h4 class="text-white text-base uppercase font-semibold mb-5">Academic</h4>
+                    <div class="mb-4">
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Plans of study</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Courses</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Admissions</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Staff</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Students</a></li>
+                    </div>
+                </div>
+                <div>
+                <h4 class="text-white text-base uppercase font-semibold mb-5">Contact us</h4>
+                    <div>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Contacts</a></li>
+                        <li class="list-none mb-1"><a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">Plan a visit</a></li>
+                        <li class="list-none mb-1"><span class="text-white">Info line-<a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">+0332 84322456</a></span></li>
+                        <li class="list-none mb-1"><span class="text-white">Email-<a href="#" class="text-white text-sm font-semibold opacity-50 hover:opacity-100 transition">info@atena.com</a></span></li>
+                    </div>
+                </div>
+             </div>
+           </div>  
+       </div>
+       <!-- Copyright Footer -->
+       <div id="copyright" class="bg-black">
+           <div class="container py-5 flex justify-around items-center justify-center flex-wrap text-center md:text-left">
+                <div>
+                    <a href="#"><img src="images/ft_logo.png"></a>
+                </div>
+                <div class="text-white text-base capitalize mt-2">
+                    <span class="">© All Rights reserved. Powered By<a href="#" class="inline-block text-sm font-semibold ml-1">KODEFOREST</a></span>
+                </div>
+                <ul class="flex items-center gap-2 mt-3">
+                      <li><a href="#"><img src="images/card/visacard.png"></a></li>
+                      <li><a href="#"><img src="images/card/mastercard.png"></a></li>
+                      <li><a href="#"><img src="images/card/americancard.png"></a></li>
+                      <li><a href="#"><img src="images/card/card.png"></a></li>
+                      <li><a href="#"><img src="images/card/descoverycard.png"></a></li>
+                 </ul>
+           </div>
+       </div>
+</body>
+</html>
